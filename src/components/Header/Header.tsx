@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 import './Header.css'
 import logo from '../../assets/logo.png';
 
@@ -11,7 +12,7 @@ function Header() {
   return (
     <div className="nav">
       <ul>
-        <a href="#">
+        <a href="/">
           <li>Home</li>
         </a>
         <a href="#">

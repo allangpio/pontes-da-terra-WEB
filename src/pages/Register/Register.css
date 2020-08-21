@@ -1,0 +1,7 @@
+.form-container fieldset {
+    border: none;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 0 .5rem;
+}

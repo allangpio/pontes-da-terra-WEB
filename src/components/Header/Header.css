@@ -1,10 +1,15 @@
 .nav {
     display: flex;    
     align-items: center;
+
+    justify-self: end;
+    margin-right: 3rem;
+    margin-top: 1rem;
     
-    position: absolute;
+    
+    /* position: absolute;
     top: 1rem;
-    right: 3rem;
+    right: 3rem; */
 
 }
 

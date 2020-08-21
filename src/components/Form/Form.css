@@ -1,0 +1,14 @@
+.form-container {
+    display: grid;
+    gap: 1rem
+}
+
+.form-container h2 {
+    font-size: 2.5rem;
+}
+
+.form-container form {
+    display: grid;
+}
+
+

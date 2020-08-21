@@ -1,0 +1,14 @@
+.footer {
+    justify-self: end;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+.footer a{
+    transition: filter 250ms;
+}
+
+.footer a:hover{
+    filter: brightness(75%);
+}
