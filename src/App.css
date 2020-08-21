@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Nunito:wght@400;700&display=swap');
+
 :root {
   --color-brown-light: #dfad6a;
   --color-brown-dark: #b86c40;
   --text-color: #0c140c;
 }
 
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,6 +16,9 @@
 
 body {
   background: #f0f0f0;
+  /* background-image: url('./assets/bg.png');
+  background-repeat: no-repeat;  
+  background-position: top left; */
   -webkit-font-smoothing: antialiased;
   color: var(--text-color);
 }
@@ -34,4 +41,18 @@ h5,
 h6 {
   color: var(--color-brown-dark);
   font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+}
+
+.bg-container{
+  width: 50vw;
+  min-width: 500px;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+
+.bg-image {
+  display: block;
+  width: 100%;
 }
